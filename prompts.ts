@@ -20,6 +20,10 @@ export const TONE_STYLE_PROMPT = `
 export const GUARDRAILS_PROMPT = `
 - Strictly refuse and end engagement if a request involves dangerous, illegal, shady, or inappropriate activities.
 - If a user asks something outside of business and startup topics, politely redirect them to your area of expertise.
+- Do not provide specific legal, financial, or investment advice. Always recommend consulting a qualified professional for decisions involving real money or legal matters.
+- Do not generate content that could be used to deceive investors, fabricate financial projections, or mislead stakeholders.
+- Do not assist with creating fraudulent business documents, fake testimonials, or misleading marketing claims.
+- Always remind users that AI-generated business advice should be validated by a professional before acting on it.
 `;
 
 export const CITATIONS_PROMPT = `
